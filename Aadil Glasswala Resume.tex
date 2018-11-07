@@ -1,0 +1,86 @@
+
+\documentclass[11pt,letterpaper,final]{moderncv}
+\usepackage{fontspec}
+\moderncvtheme[blue]{classic}
+
+
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+\AtBeginDocument{\recomputelengths}
+
+\usepackage[utf8]{inputenc}
+\defaultfontfeatures{Mapping=tex-text}
+
+% Remove % to set to different fonts
+%\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
+%\setmonofont[Scale=0.8]{Monaco} 
+
+\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+\renewcommand{\baselinestretch}{1.05}
+
+% Personal Information 
+\firstname{Aadil}
+\familyname{Glasswala}
+\address{Bogota, NJ 07603}
+\mobile{201.214.8385}
+\email{aglasswala@gmail.com}
+\social[github][www.github.com/aglasswala]{github.com/aglasswala}
+\social[linkedin][www.linkedin.com/in/aglasswala]{linkedin.com/in/aglasswala}
+%\extrainfo{\homepagesymbol\httplink{www.linkedin.com/in/aadilglasswala/}}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{Education}
+  \cventry{Sep 2016 - May 2020}{Computer Science}{Montclair State University}{Montclair, NJ}{}{
+    \begin{itemize}
+       \item Computer Club, hosts of the annual HackHawk.io
+       \item Blockchain Club, founding member
+       \item Relative Coursework: Software Engineering, Data Mining, Computer Networks
+     \end{itemize}
+  }
+\section{Skills} 
+  \cvline{Languages:}{Java, Python, Javascript, HTML, CSS}
+  \cvline{Tools:}{React.js, Node.js, Express.js, PostgreSQL, Git/GitHub}
+
+\section{Projects}
+  \cventry{Aug 2018 - Nov 2018}{Face Detection App}{Personal}{}{}{
+   \begin{itemize}
+    \item Engineered full stack website using React, Express and PostgreSQL
+    \item Incorporated Clarifai API to detect faces on any image
+    \item Implemented features such as signin/signout and updated entry count for each user
+   \end{itemize}
+  }
+  \cventry{Aug 2018 - Oct 2018}{Turtle Traveler}{Personal}{}{}{
+   \begin{itemize}
+    \item Developed web application that incorporates Dijkstra's algorithm for the shortest flight pattern
+    \item Created with Bootstrap 4 and jQuery for animations 
+   \end{itemize}
+ }
+
+  \cventry{Apr 2018 - May 2018}{B-Tree Implementation}{Academic}{}{}{
+   \begin{itemize}
+    \item Led a team of four others to create fully functional data structure in Java
+    \item Submitted project to receive highest grade possible in class
+  \end{itemize}
+ }
+\section{Experience}
+  \cventry{Jun 2018 -- Present}{Assistant Researcher}{Department of Computer Science}{Montclair, NJ}{}{
+    \begin{itemize}
+      \item Devised deep feedforward neural network to accurately detect up to four intrustions on time series data with a 98\% verification score
+      \item Designed multiple Recurrent Neural Networks for classification and regression tasks with Google's Tensorflow API and Keras API in Python
+      \item Expedited development of algorithm by gathering large collections of viable data and preprocessing data for compatibility
+    \end{itemize}
+ }
+ \cventry{Jul 2016 -- Present}{Formalwear Specialist}{Dante Tuxedo}{Verona, NJ}{}{
+   \begin{itemize}
+    \item Streamlined IT operations across 3 different store locations; created a network of printers, cash registers and other devices that enhanced operations by reducing technical-related downtime and easing training of new employees
+    \item Managed entire store; managed inventory levels across all offerings, handled customer service requests by providing measuring and fashion advice, and payment options; managed cash while owner was not on site
+    \item Increased sales by attending trade shows; generated a leads list that increased foot traffic in the store, advertised favorable terms and product offerings to attract customers away from competitors
+  \end{itemize}
+ }
+
+\end{document}
