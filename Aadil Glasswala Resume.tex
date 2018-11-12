@@ -7,6 +7,7 @@
 \usepackage[scale=0.85]{geometry}
 \setlength{\hintscolumnwidth}{2cm}
 \AtBeginDocument{\recomputelengths}
+\usepackage{fixltx2e}
 
 \usepackage[utf8]{inputenc}
 \defaultfontfeatures{Mapping=tex-text}
@@ -37,9 +38,8 @@
 \section{Education}
   \cventry{Sep 2016 - May 2020}{Computer Science}{Montclair State University}{Montclair, NJ}{}{
     \begin{itemize}
-       \item Computer Club, hosts of the annual HackHawk.io
+       \item Computer Club, hosts of the annual HackHawk.io Hackathon
        \item Blockchain Club, founding member
-       \item Relative Coursework: Software Engineering, Data Mining, Computer Networks
      \end{itemize}
   }
 \section{Skills} 
@@ -49,28 +49,28 @@
 \section{Projects}
   \cventry{Aug 2018 - Nov 2018}{Face Detection App}{Personal}{}{}{
    \begin{itemize}
-    \item Engineered full stack website using React, Express and PostgreSQL
-    \item Incorporated Clarifai API to detect faces on any image
-    \item Implemented features such as signin/signout and updated entry count for each user
+    \item Engineered full stack website that allows users to submit a url of an image and returns a picture with all faces identified
+    \item Incorporated Clarifai API that receives the url and sends back coordinates for each face location  
+    \item Implemented features such as a full login and registration system which tracks each users submission count 
    \end{itemize}
   }
   \cventry{Aug 2018 - Oct 2018}{Turtle Traveler}{Personal}{}{}{
    \begin{itemize}
-    \item Developed web application that incorporates Dijkstra's algorithm for the shortest flight pattern
-    \item Created with Bootstrap 4 and jQuery for animations 
+    \item Developed frontend website where users could select given airports and find the shortest distance from each entry point
+    \item Utilizes Dijkstra's algorithm in Javascript and outputs path to dynamic Bootstrap cards with real world pictures and flight information
    \end{itemize}
  }
 
-  \cventry{Apr 2018 - May 2018}{B-Tree Implementation}{Academic}{}{}{
+  \cventry{Nov 2018 }{StudyWITus}{HackWITus, Hackathon}{}{}{
    \begin{itemize}
-    \item Led a team of four others to create fully functional data structure in Java
-    \item Submitted project to receive highest grade possible in class
+    \item Constructed full front end web application that allows students to set up specific study sessions with other students all around campus
+    \item Led a team of four others to develop system within a 24 hour time frame and place 2\textsuperscript{nd} overall
   \end{itemize}
  }
 \section{Experience}
   \cventry{Jun 2018 -- Present}{Assistant Researcher}{Department of Computer Science}{Montclair, NJ}{}{
     \begin{itemize}
-      \item Devised Deep Feedforward Neural Network to accurately detect up to four intrusions on time series data with a 98\% verification score
+      \item Devised main Deep Feedforward Neural Network to accurately detect up to four intrusions on time series data with a 98\% verification score
       \item Designed multiple Recurrent Neural Networks for classification and regression tasks with Google's Tensorflow API and Keras API in Python
       \item Expedited development of algorithm by gathering large collections of viable data and preprocessing data for compatibility
     \end{itemize}
@@ -78,7 +78,6 @@
  \cventry{Jul 2016 -- Present}{Formalwear Specialist}{Dante Tuxedo}{Verona, NJ}{}{
    \begin{itemize}
     \item Streamlined IT operations across 3 different store locations; created a network of printers, cash registers and other devices that enhanced operations by reducing technical-related downtime and easing training of new employees
-    \item Managed entire store; managed inventory levels across all offerings, handled customer service requests by providing measuring and fashion advice, and payment options; managed cash while owner was not on site
     \item Increased sales by attending trade shows; generated a leads list that increased foot traffic in the store, advertised favorable terms and product offerings to attract customers away from competitors
   \end{itemize}
  }
