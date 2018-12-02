@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.6)  12 NOV 2018 13:37
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.6)  2 DEC 2018 13:15
 entering extended mode
 **"./Aadil Glasswala Resume.tex"
 ("Aadil Glasswala Resume.tex"
@@ -1087,11 +1087,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  ("Aadil Glasswala Resume.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `"Aadil Glasswala Resume".out' has not change
 d.
 (rerunfilecheck)             Checksum: .
